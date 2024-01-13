@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head> <title>Bert the Job Chat Bot</title></head>
+<body>
+<header>
+<img src="logo.jpg" width="500" length="500" alt="Bert the Job Chat Bot">
+</header>
+<td><a href="index.html">Go back to menu</a></td>
+<hr>
+<nav>
+<table cellspacing="5" cellpading = "5">
+<tr>
+<head>
+<title>MESSAGE BOX</title>
+</head>
+<body>
+    <h1>{{ prompt }}</h1>
+    
+    <form action="/process_input" method="post">
+        <input type="text" name="user_input" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</tr> 
+</nav>
+</body>
